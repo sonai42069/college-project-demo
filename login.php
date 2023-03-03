@@ -1,10 +1,3 @@
-<?php 
- /* session_start();
-  if(isset($_SESSION['unique_id'])){
-    header("location: users.php");
-  }*/
-?>
-
 <?php include "header.php"; ?>
 
 <body>
