@@ -13,17 +13,17 @@ body{
   justify-content: center;
   min-height: 100vh;
   background-image: url(picture/pexels-angele-j-128402.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   padding: 0 10px;
 }
 .wrapper{
-    background-color: #000;
-    color: #fff;
-    opacity: .6; 
+  background-color: #000;
+  color: #fff;
+  opacity: .6; 
   max-width: 450px;
   width: 100%;
-  border-radius: 16px;
+  border-radius: 18px;
   box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
               0 32px 64px -48px rgba(0,0,0,0.5);
 }
@@ -113,7 +113,7 @@ body{
   font-size: 17px;
 }
 .form .link a{
-  color: #333;
+  color: #f2a6a6;
 }
 .form .link a:hover{
   text-decoration: underline;
