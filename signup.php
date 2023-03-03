@@ -20,6 +20,10 @@
           <label>Email Address</label>
           <input type="text" name="email" placeholder="Enter your email" required>
         </div>
+        <!--<div class="field input">
+          <label>Mobile Number</label>
+          <input type="text" name="mobile" placeholder="Enter your mobile number" required>
+        </div>-->
         <div class="field input">
           <label>Password</label>
           <input type="password" name="password" placeholder="Enter new password" required>

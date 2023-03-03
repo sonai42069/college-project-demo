@@ -21,10 +21,9 @@
           <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
         </div> -->
         <div class="field button">
-          <input type="submit" name="submit" value="submit">
+          <input type="submit" name="submit" value="submit" >
         </div>
       </form>
-      <div class="link">Already signed up? <a href="#">Login now</a></div>
     </section>
   </div>
 
