@@ -3,7 +3,7 @@
 <body>
   <div class="wrapper">
     <section class="form signup">
-      <header>Signup</header>
+      <header>Signup to NourishNow</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
         <div class="name-details">
@@ -25,10 +25,6 @@
           <input type="password" name="password" placeholder="Enter new password" required>
           <i class="fas fa-eye"></i>
         </div>
-        <!--<div class="field image">
-          <label>Select Image</label>
-          <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
-        </div> -->
         <div class="field button">
           <input type="submit" name="submit" value="submit">
         </div>
