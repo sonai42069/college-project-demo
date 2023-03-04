@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-<body>
+<body style="background-image: url(picture/signup.jpg);background-size:cover;background-repeat: no-repeat;">
   <div class="wrapper">
     <section class="form signup">
       <header>Signup to NourishNow</header>

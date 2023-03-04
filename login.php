@@ -1,6 +1,6 @@
 <?php include "header.php"; ?>
 
-<body>
+<body style="background-image: url(picture/login.jpg);background-size:cover;background-repeat: no-repeat;">
   <div class="wrapper">
     <section class="form signup">
       <header>Log In to NourishNow</header>
@@ -20,7 +20,7 @@
           <input type="submit" name="submit" value="submit" >
         </div>
       </form>
-      <div class="link">Already signed up? <a href="#">Login now</a></div>
+      <div class="link">Don't have an account ?<a href="signup.php"> Signup now</a></div>
     </section>
   </div>
 

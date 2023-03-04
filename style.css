@@ -12,9 +12,6 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-image: url(picture/pexels-angele-j-128402.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
   padding: 0 10px;
 }
 .wrapper{
