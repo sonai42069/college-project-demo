@@ -1,11 +1,15 @@
-<?php include "header.php"; ?>
+<?php 
+    include "header.php"; 
+   // include_once "php/config.php";
+    
+?>
 
-<body>
+<body style="background-image: url(picture/signup.jpg);background-size:cover;background-repeat: no-repeat;">
   <div class="wrapper">
     <section class="form signup">
       <header>Signup to NourishNow</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
-        <div class="error-text"></div>
+       <div class="error-text"></div> 
         <div class="name-details">
           <div class="field input">
             <label>First Name</label>
@@ -20,17 +24,17 @@
           <label>Email Address</label>
           <input type="text" name="email" placeholder="Enter your email" required>
         </div>
-        <!--<div class="field input">
-          <label>Mobile Number</label>
-          <input type="text" name="mobile" placeholder="Enter your mobile number" required>
-        </div>-->
         <div class="field input">
           <label>Password</label>
           <input type="password" name="password" placeholder="Enter new password" required>
           <i class="fas fa-eye"></i>
         </div>
+        <div class="field image">
+          <label>Select Image</label>
+          <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+        </div>
         <div class="field button">
-          <input type="submit" name="submit" value="submit">
+          <input type="submit" name="submit" value="submit" >
         </div>
       </form>
       <div class="link">Already signed up? <a href="login.php">Login now</a></div>
