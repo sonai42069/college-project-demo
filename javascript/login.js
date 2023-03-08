@@ -14,7 +14,7 @@ continueBtn.onclick = ()=>{
           if(xhr.status === 200){
               let data = xhr.response;
               if(data === "success"){
-                location.href = "s.php";
+                location.href = "logout.php";
               }else{
                 errorText.style.display = "block";
                 errorText.textContent = data;

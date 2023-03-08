@@ -115,3 +115,11 @@ body{
 .form .link a:hover{
   text-decoration: underline;
 }
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  color: #000;
+}

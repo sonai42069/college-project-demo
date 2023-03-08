@@ -2,7 +2,7 @@
 
 <body style="background-image: url(picture/login.jpg);background-size:cover;background-repeat: no-repeat;">
   <div class="wrapper">
-    <section class="form signup">
+    <section class="form login">
       <header>Log In to NourishNow</header>
       <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text"></div>
@@ -25,7 +25,7 @@
   </div>
 
   <script src="javascript/pass-show-hide.js"></script>
-  <script src="javascript/signup.js"></script>
+  <script src="javascript/login.js"></script>
 
 </body>
 </html>
