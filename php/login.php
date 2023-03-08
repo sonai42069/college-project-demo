@@ -12,7 +12,7 @@
             if($user_pass === $enc_pass){
                     echo "success";
             }else{
-                echo "Email or Password is Incorrect!";
+                echo "Password is Incorrect!";
             }
         }else{
             echo "$email - This email not Exist!";

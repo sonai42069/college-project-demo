@@ -1,24 +1,18 @@
 <?php 
 session_start();
-
- if(isset($_SESSION['unique_id']) && isset($_SESSION['fname'])) {
-
+include "header.php"; /*
+if (isset($_SESSION['email']) && isset($_SESSION['unique_id'])) {
+*/
  ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>HOME</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
 <body>
-     <h1>Hello, <?php echo $_SESSION['fname']; ?></h1>
-     <a href="php/logout.php">Logout</a>
+     <h1>Hello, <?php //echo $_SESSION['fname']; ?></h1>
+    <a href="php/logout.php">Logout</a> 
 </body>
 </html>
 
-<?php 
+<?php /*
 }else{
      header("Location: login.php");
      exit();
-}
+}*/
  ?>
