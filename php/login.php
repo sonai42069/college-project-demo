@@ -10,6 +10,10 @@
             $user_pass = md5($password);
             $enc_pass = $row['password'];
             if($user_pass === $enc_pass){
+                $_SESSION['unique_id'] = $row['unique_id'];
+                $_SESSION['fname'] = $row['fname'];
+                $_SESSION['lname'] = $row['lname'];
+                $_SESSION['email'] = $row['email'];
                     echo "success";
             }else{
                 echo "Password is Incorrect!";

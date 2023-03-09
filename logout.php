@@ -1,18 +1,18 @@
 <?php 
 session_start();
-include "header.php"; /*
+include "header.php"; 
 if (isset($_SESSION['email']) && isset($_SESSION['unique_id'])) {
-*/
+
  ?>
 <body>
-     <h1>Hello, <?php //echo $_SESSION['fname']; ?></h1>
+     <h1>Hello, <?php echo $_SESSION['fname']." ".$_SESSION['lname']; ?></h1>
     <a href="php/logout.php">Logout</a> 
 </body>
 </html>
 
-<?php /*
+<?php 
 }else{
      header("Location: login.php");
      exit();
-}*/
+}
  ?>
