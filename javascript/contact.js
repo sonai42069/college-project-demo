@@ -1,6 +1,6 @@
 const form = document.querySelector(".from contact"),
 continueBtn = form.querySelector(".button input"),
-errorText = form.querySelector(".error-text");
+//errorText = form.querySelector(".error-text");
 
 form.onsubmit = (e)=>{
     e.preventDefault();

@@ -100,10 +100,10 @@ body{
   transition: 0.5s ease-in-out;
 }
 
-.searchbox.active{
+.home2-searchbox.active{
   right: 0;
 }
-
+ 
 .home2-searchbox input{
   width: 100%;
   border: none;
@@ -114,6 +114,24 @@ body{
   background: #fff;
   border-bottom: 1px solid rgba(0,0,0,0.5);
 }
-
-/*Main Body CSS*/
- 
+.home2-searchbtn{
+  position: relative;
+  left: 30px;
+  top: 2.5px;
+  transition: 0.5s ease-in-out;
+} 
+.home2-searchbtn.active{
+  left: 0;
+}
+.home2-closebtn{
+  opacity: 0;
+  visibility: visible;
+  transition: 0.5s;
+  scale: 0;
+}
+.home2-closebtn.active{
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+  scale: 1;
+}
